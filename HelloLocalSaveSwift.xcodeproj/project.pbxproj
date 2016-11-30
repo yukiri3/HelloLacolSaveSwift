@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74BB729EDD95F0986408C92 /* Pods_HelloLocalSaveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E429D0443CA883B6817185 /* Pods_HelloLocalSaveSwift.framework */; };
+		CE885B3B1DEE99A7001B0786 /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE885B3A1DEE99A7001B0786 /* SQLiteManager.swift */; };
+		CE885B431DEEBCE0001B0786 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE885B421DEEBCE0001B0786 /* CoreData.swift */; };
+		CE885B451DEEBD07001B0786 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE885B441DEEBD07001B0786 /* CoreDataManager.swift */; };
+		CEC46A681DEE80B900B26FFE /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC46A671DEE80B900B26FFE /* SQLite.framework */; };
+		CEC46A6A1DEE80E000B26FFE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC46A691DEE80E000B26FFE /* libsqlite3.0.tbd */; };
+		CEC46A6C1DEE80E700B26FFE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC46A6B1DEE80E700B26FFE /* libsqlite3.tbd */; };
 		CEEFEB341DED800700238EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFEB331DED800700238EC9 /* AppDelegate.swift */; };
 		CEEFEB361DED800700238EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEFEB351DED800700238EC9 /* ViewController.swift */; };
 		CEEFEB391DED800700238EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEFEB371DED800700238EC9 /* Main.storyboard */; };
@@ -17,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A6489FCBD8E32BA4F16D1CF0 /* Pods-HelloLocalSaveSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLocalSaveSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLocalSaveSwift/Pods-HelloLocalSaveSwift.release.xcconfig"; sourceTree = "<group>"; };
+		CE885B3A1DEE99A7001B0786 /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
+		CE885B421DEEBCE0001B0786 /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		CE885B441DEEBD07001B0786 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CEC46A671DEE80B900B26FFE /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloLocalSaveSwift-cbatatfudhjxprfoopzqnceyqery/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
+		CEC46A691DEE80E000B26FFE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		CEC46A6B1DEE80E700B26FFE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CEC46A6D1DEE82C800B26FFE /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		CEEFEB301DED800700238EC9 /* HelloLocalSaveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLocalSaveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEFEB331DED800700238EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEFEB351DED800700238EC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +41,8 @@
 		CEEFEB401DED800700238EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEEFEB421DED800700238EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEEFEB481DED81E500238EC9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E1E429D0443CA883B6817185 /* Pods_HelloLocalSaveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLocalSaveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF99DC81D391098A64BCE0EA /* Pods-HelloLocalSaveSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLocalSaveSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLocalSaveSwift/Pods-HelloLocalSaveSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC46A6C1DEE80E700B26FFE /* libsqlite3.tbd in Frameworks */,
+				CEC46A6A1DEE80E000B26FFE /* libsqlite3.0.tbd in Frameworks */,
+				CEC46A681DEE80B900B26FFE /* SQLite.framework in Frameworks */,
+				A74BB729EDD95F0986408C92 /* Pods_HelloLocalSaveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28B1DAE6DE3FA963ECEC3361 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF99DC81D391098A64BCE0EA /* Pods-HelloLocalSaveSwift.debug.xcconfig */,
+				A6489FCBD8E32BA4F16D1CF0 /* Pods-HelloLocalSaveSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4162C86BA96DFE61560E935B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC46A6B1DEE80E700B26FFE /* libsqlite3.tbd */,
+				CEC46A691DEE80E000B26FFE /* libsqlite3.0.tbd */,
+				CEC46A671DEE80B900B26FFE /* SQLite.framework */,
+				E1E429D0443CA883B6817185 /* Pods_HelloLocalSaveSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE885B3C1DEEB0F5001B0786 /* SQLiteModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE885B3A1DEE99A7001B0786 /* SQLiteManager.swift */,
+			);
+			name = SQLiteModel;
+			sourceTree = "<group>";
+		};
+		CE885B3D1DEEBC0F001B0786 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE885B421DEEBCE0001B0786 /* CoreData.swift */,
+				CE885B441DEEBD07001B0786 /* CoreDataManager.swift */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
 		CEEFEB271DED800700238EC9 = {
 			isa = PBXGroup;
 			children = (
 				CEEFEB321DED800700238EC9 /* HelloLocalSaveSwift */,
 				CEEFEB311DED800700238EC9 /* Products */,
+				28B1DAE6DE3FA963ECEC3361 /* Pods */,
+				4162C86BA96DFE61560E935B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +118,17 @@
 		CEEFEB321DED800700238EC9 /* HelloLocalSaveSwift */ = {
 			isa = PBXGroup;
 			children = (
+				CE885B3D1DEEBC0F001B0786 /* CoreDataModel */,
+				CE885B3C1DEEB0F5001B0786 /* SQLiteModel */,
 				CEEFEB331DED800700238EC9 /* AppDelegate.swift */,
-				CEEFEB351DED800700238EC9 /* ViewController.swift */,
 				CEEFEB371DED800700238EC9 /* Main.storyboard */,
+				CEEFEB351DED800700238EC9 /* ViewController.swift */,
 				CEEFEB481DED81E500238EC9 /* TableViewController.swift */,
 				CEEFEB3D1DED800700238EC9 /* Assets.xcassets */,
 				CEEFEB3F1DED800700238EC9 /* LaunchScreen.storyboard */,
 				CEEFEB421DED800700238EC9 /* Info.plist */,
 				CEEFEB3A1DED800700238EC9 /* HelloLocalSaveSwift.xcdatamodeld */,
+				CEC46A6D1DEE82C800B26FFE /* BridgeHeader.h */,
 			);
 			path = HelloLocalSaveSwift;
 			sourceTree = "<group>";
@@ -77,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEEFEB451DED800700238EC9 /* Build configuration list for PBXNativeTarget "HelloLocalSaveSwift" */;
 			buildPhases = (
+				8B36086B1EE934101D1DBADE /* [CP] Check Pods Manifest.lock */,
 				CEEFEB2C1DED800700238EC9 /* Sources */,
 				CEEFEB2D1DED800700238EC9 /* Frameworks */,
 				CEEFEB2E1DED800700238EC9 /* Resources */,
+				8698A3CC416F0E3B98D836CD /* [CP] Embed Pods Frameworks */,
+				C9CEF070A1E2DA2692F78F56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +204,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8698A3CC416F0E3B98D836CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloLocalSaveSwift/Pods-HelloLocalSaveSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B36086B1EE934101D1DBADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CEF070A1E2DA2692F78F56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloLocalSaveSwift/Pods-HelloLocalSaveSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEEFEB2C1DED800700238EC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -145,7 +259,10 @@
 			files = (
 				CEEFEB361DED800700238EC9 /* ViewController.swift in Sources */,
 				CEEFEB3C1DED800700238EC9 /* HelloLocalSaveSwift.xcdatamodeld in Sources */,
+				CE885B3B1DEE99A7001B0786 /* SQLiteManager.swift in Sources */,
 				CEEFEB341DED800700238EC9 /* AppDelegate.swift in Sources */,
+				CE885B431DEEBCE0001B0786 /* CoreData.swift in Sources */,
+				CE885B451DEEBD07001B0786 /* CoreDataManager.swift in Sources */,
 				CEEFEB491DED81E500238EC9 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,26 +382,32 @@
 		};
 		CEEFEB461DED800700238EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF99DC81D391098A64BCE0EA /* Pods-HelloLocalSaveSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VBE7MKN5GU;
 				INFOPLIST_FILE = HelloLocalSaveSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiChen.HelloLocalSaveSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HelloLocalSaveSwift/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CEEFEB471DED800700238EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6489FCBD8E32BA4F16D1CF0 /* Pods-HelloLocalSaveSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VBE7MKN5GU;
 				INFOPLIST_FILE = HelloLocalSaveSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiChen.HelloLocalSaveSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HelloLocalSaveSwift/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -308,6 +431,7 @@
 				CEEFEB471DED800700238EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

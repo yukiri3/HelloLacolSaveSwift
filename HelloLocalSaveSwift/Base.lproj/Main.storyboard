@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -88,6 +89,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="DataSave" id="GFn-QP-X6l">
+                        <leftBarButtonItems>
+                            <barButtonItem title="清除SQlite" id="Zxh-xS-l59">
+                                <connections>
+                                    <action selector="clearLocalData:" destination="BYZ-38-t0r" id="MAg-dJ-zdT"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="coreData" id="A7Y-9M-uug">
+                                <connections>
+                                    <action selector="clearCoreData:" destination="BYZ-38-t0r" id="Oof-VE-zDd"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                         <barButtonItem key="rightBarButtonItem" title="查看" id="o3k-qB-JKI">
                             <connections>
                                 <segue destination="CUV-XF-vZ9" kind="show" id="mqf-pJ-wUW"/>
@@ -114,15 +127,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="UHC-7Q-RmA" style="IBUITableViewCellStyleDefault" id="JXR-BR-ghK">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="UHC-7Q-RmA" detailTextLabel="nIl-SQ-90g" style="IBUITableViewCellStyleValue1" id="JXR-BR-ghK">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JXR-BR-ghK" id="UAW-AA-9Cu">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="未輸入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UHC-7Q-RmA">
-                                            <rect key="frame" x="15" y="0.0" width="345" height="43.5"/>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="未輸入" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UHC-7Q-RmA">
+                                            <rect key="frame" x="15" y="12" width="52" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="主鍵" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nIl-SQ-90g">
+                                            <rect key="frame" x="325" y="12" width="35" height="20.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>

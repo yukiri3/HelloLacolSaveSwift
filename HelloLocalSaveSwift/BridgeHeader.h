@@ -9,5 +9,7 @@
 #ifndef BridgeHeader_h
 #define BridgeHeader_h
 
+/*引入 sqlite 函式庫*/
+#include "sqlite3.h"
 
 #endif /* BridgeHeader_h */

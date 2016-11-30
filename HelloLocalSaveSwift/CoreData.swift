@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CoreData
 class CoreData: NSManagedObject {
-
+    var name:String?
 }
